@@ -1,6 +1,9 @@
 //!2.1
 const jedi = { nombre: 'Luke Skywalker', edad: 19 }
-// No se puede modificar una constante
+
+jedi.edad = 25
+
+// console.log(jedi)
 
 //!2.2
 const presentacion = {
@@ -23,9 +26,12 @@ precioBaseGlobal = 25000
 // console.log(precioBaseGlobal)
 
 //!2.4.2
-const nave1 = { nombre: 'Ala-X', precioBase: 50000, precioFinal: 60000 }
-const nave2 = {
-  nombre: 'Halcón Milenario',
-  precioBase: 70000,
-  precioFinal: 80000
-}
+
+const nave1 = { nombre: 'Ala-X', precioBase: 50000, precioFinal: 0 }
+const nave2 = { nombre: 'Halcón Milenario', precioBase: 70000, precioFinal: 0 }
+
+nave1.precioFinal = nave1.precioBase + precioBaseGlobal
+nave2.precioFinal = nave2.precioBase + precioBaseGlobal
+
+console.log(nave1)
+console.log(nave2)
