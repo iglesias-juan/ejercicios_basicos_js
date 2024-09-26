@@ -14,5 +14,15 @@ let numF = 9
 // console.log(numE % numF)
 
 //!3.4
+let o = 15
+let p = 10
+let j = 5
+o = p + j
+// console.log(o)
 
 //!3.5
+i = 50
+c = 10
+m = 5
+i = c * m
+// console.log(i)

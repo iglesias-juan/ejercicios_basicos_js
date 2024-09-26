@@ -20,6 +20,6 @@ aldeanos.splice(4, 1, 'Narciso')
 // console.log(aldeanos)
 
 //!4.6
-for (let i = 5; i < ancianos.lenght; i++) {
-  console.log(ancianos[i])
+for (let i = 1; (i = aldeanos.lenght); i++) {
+  console.log(aldeanos[i])
 }
