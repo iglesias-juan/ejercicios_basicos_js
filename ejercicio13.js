@@ -15,7 +15,7 @@ const names = [
 function nameFinder(nameList, nameFound) {
   const x = nameList.indexOf(nameFound)
   if (x !== -1) {
-    return { found: true, index: x }
+    return { found: true, i: x }
   } else {
     return { found: false }
   }

@@ -5,4 +5,4 @@ function greaterNumber(numberOne, numberTwo) {
     console.log(numberTwo)
   }
 }
-greaterNumber(10, 89)
+greaterNumber(101, 89)
